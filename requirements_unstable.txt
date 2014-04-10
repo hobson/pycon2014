@@ -1,0 +1,8 @@
+Pympler
+RunSnakeRun
+SquareMap
+guppy
+# without ver num ERR is: "Could not find a version that satisfies the requirement line-profiler (from versions: 1.0b1, 1.0b2, 1.0b3)"
+line-profiler==1.0b3
+numpy
+ipython
