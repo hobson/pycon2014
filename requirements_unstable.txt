@@ -6,3 +6,6 @@ guppy
 line-profiler==1.0b3
 numpy
 ipython
+pyzmq
+tornado
+jinja2

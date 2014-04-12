@@ -1,0 +1,43 @@
+seaborn enhances to matplotlib plots like minor gridlines
+
+--------
+snippets of code from Michael's talk on Machine Learning scaling and web services (REST server in python, rabbit MQ to manage the queue, consumer in skikit learn which loads a pickled classifier from scikitlearn and populates a database of the results)
+
+from sklearn.preprocessing import LabelEncoder
+
+vect = TfidfVectorizer(analyzer='char', ngram_range=(2,3))
+X1_train = ...
+pca = RandomizedPCA(n_components=50, whiten=True)
+clf = SVC()
+
+text_clf = Pipline([
+('vect', vect)
+('pca', pca),
+('clf', clf)
+])
+
+for x in X_train[:10]:
+    print ' '.join(unicode(...))
+    y = country labels
+
+pca.explained_variance_ratio
+
+# TruncatedSVD is better for use with TFidVectorizer
+
+random_search = RandomizedSearchCV(...)
+# helps find the best parameters for a model
+
+# keep track of training set and model training parameters, without relying on pickle in case scikit learn is upgraded
+
+send data to REST API which returns a tracking ID and then the REST API can be queried for updates about that ID (are results ready?)
+
+RabbitMQ
+AMQP advanced messaging query platform (publishers and consumers of messages)
+
+Gavin M. Roy -- Rabbit MQ in depth
+
+0MQ is alternative message que
+
+loads a pickled clf (classifier)
+
+
