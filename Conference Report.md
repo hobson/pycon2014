@@ -12,18 +12,39 @@ Very Valuable
 
 + **Postgresql for Humans** -- Craig Kerstiens (Heroku DBA) -- lots of useful tips in separate document 
 
++ **Data Structures** -- Brandon Rhodes -- better understanding of the reasons why numpy structures are faster than python builtin lists (double indirection)
+
++ **Import-and Decisions** -- Allison Kaptur -- built an import function from scratch and showed how the real import statement works and why it's different from C #include, or java import.
 
 Other
 -----
 
-- Brendan Rhodes -- EXE from Python -- `export PYTHONDONTWRITEBYTEFILES=1` to avoid problems with clean pyc. 30% overhead because interpretted, 85% is due to dynamic typing (5x slower due to indirection to look up types in a multiply)
+- **Openness** -- John Perry Barlow -- writer for grateful Dead and consultant to CIA, NSA, supporter/funder of Snowden and wikileaks, inspiring pep talk on FOSS, and prediction that personal privacy is already an antiquated concept
 
-- Documentation -- can use dexi to RST and then into sphinx to create linked HTML documents with code snippets or doctest result embedded
+- **Ansible** -- Michael DeHaan -- better understanding of roles vs modules and available resources for deploying and managing our website
 
-- helicopter -- $60 helicopter + arduino controller for autonomous teleoperation from python on laptop
+- **Full Stack Development** -- Kate Hendleston -- just a description of architecture
 
-- blimp -- sophisticated outdoor navigation and autopilot for Helium blimp for overhead photography
+- **EXE from Python*** -- Brendan Rhodes -- `export PYTHONDONTWRITEBYTEFILES=1` to avoid problems with clean pyc. 30% overhead because interpretted, 85% is due to dynamic typing (5x slower due to indirection to look up types in a multiply)
 
-- python EXE -- now possible to build standalone EXE files from python easily
+- **Documentation** -- can use dexi to RST and then into sphinx to create linked HTML documents with code snippets or doctest result embedded
+
+- **cheap livingroom helicopters** -- $60 helicopter + arduino controller for autonomous teleoperation from python on laptop
+
+- **python-powered blimps** -- sophisticated outdoor navigation and autopilot for Helium blimp for overhead photography
+
+- **machine learning to make HN readable** -- Ned Jackson Lovely -- simple natural language processing (supervised classification)
+
+- **hello physical world** -- internet of things predictions and architecture descriptions
+
+- **education** -- Jessica McKellar -- awesome, inspiring ideas and statistics about the lack of CS education in High School and how python is slowly shaking up the establishment gathered around Java
+
+- **Games for Science** -- Jessica Hamrick -- impressive live demo of 3D rendering and physics engines in python. valuable new tools.
+
+- **KNN** -- Portia Burton -- well-polished live-coding demo of scikit learn tools
+
+- **iPython Notbooks** -- Julia Evans -- nice example of data analysis using notebooks and pandas to record and share your results
+
+- **Discovering Python** -- David Beazly -- how python saved his sanity when he was locked in a vault of IP for 6 months analyzing patents and software source code. Built a file system to handle it all.
 
 
