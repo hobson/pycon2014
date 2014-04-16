@@ -16,6 +16,8 @@ Very Valuable
 Other
 -----
 
+- Brendan Rhodes -- EXE from Python -- `export PYTHONDONTWRITEBYTEFILES=1` to avoid problems with clean pyc. 30% overhead because interpretted, 85% is due to dynamic typing (5x slower due to indirection to look up types in a multiply)
+
 - Documentation -- can use dexi to RST and then into sphinx to create linked HTML documents with code snippets or doctest result embedded
 
 - helicopter -- $60 helicopter + arduino controller for autonomous teleoperation from python on laptop

@@ -1,3 +1,5 @@
+Cribbed/Learned from [Craig Kerstiens (Heroku DBA)](craigkerstiens.com) 
+
 
 cache hit rate >= 99%
 ---------------------
